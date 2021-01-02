@@ -1,0 +1,85 @@
+body{
+  text-align:center;
+  background:linear-gradient(#E1BEE7 0%, #90CAF9 100%)
+}
+#photo{
+  width:200px;
+  border-radius:50%;
+  margin-top: 70px;
+}
+h1{
+  text-shadow:2px 2px #F8BBDO;
+  font-size:30px;
+}
+#heading{
+    margin-bottom: 50px;
+}
+#paragraph{
+  padding:20px;
+  font-size:20px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    top: 0px;  
+    cursor: pointer;
+    z-index: 9;
+}
+.links{
+    display: inline;
+    color: black;
+    padding-left: 80px;
+    padding-right: 50px;
+    font-size: 20px;
+    z-index: 10;
+}
+.links:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.projects:hover{
+    color: fuchsia;
+}
+.album{
+    height: 300px;
+    width: 300px;
+}
+#work{
+    font-size: 20px;
+}
+hr{
+    background-color: black;
+    height: 3px;
+}
+#inspire{
+    font-size: 20px;
+}
+.album{
+    transition: transform .2;
+    border: solid;
+    border-width: 10px;
+    border-color: darkgrey;
+    border-radius: 20px;
+}
+.album:hover{
+    transform: scale(0.9);
+}
+#Contacts{
+    background: firebrick;
+    font-size: 18px;
+}
+#Contacts iframe{
+    width: 100%;
+}
+#Contacts a{
+    width: 100%;
+    font-size: 25px;
+}
+
